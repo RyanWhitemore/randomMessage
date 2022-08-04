@@ -17,6 +17,7 @@ function displayMessage() {
 }
 function changeText() {
     button.innerHTML = "ANOTHER JOKE?"
+    joke.style.display = 'block'
 }
 
 const joke = document.getElementById("joke")
